@@ -49,23 +49,23 @@ theme:
     - content.code.copy
     - header.autohide
     - theme.palette
+    - content.action.edit
   language: en
   palette:
-    primary: black
+    primary: deep orange
+    accent: deep orange
     scheme: slate
 plugins:
   - search
   - git-revision-date-localized
-  - git-committers:
-      repository: Game-Guard/Documentation-V2
-      branch: main
+  # - git-committers:
+  #     repository: Game-Guard/Documentation-V2
+  #     branch: main
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.com
     - icon: fontawesome/brands/github
       link: https://github.com
-repo_url: https://github.com/Game-Guard/Documentation-V2
-repo_name: game-guard/documentation-v2
-edit_uri: edit/main/docs/
+edit_uri: https://github.com/Game-Guard/Documentation-V2/edit/main/docs/
 copyright: Copyright &copy; 2023 - 2024 Game Guard

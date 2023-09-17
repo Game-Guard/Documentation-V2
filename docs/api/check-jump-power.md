@@ -1,4 +1,5 @@
 # Checking Jump Power
+
 This function will allow you to check a players jump power.
 
 ## Parameters:
@@ -10,6 +11,9 @@ This function will allow you to check a players jump power.
 | Result    | The function that will be called when Game Guard detects the jump power. | function |
 
 ## Example Usage:
+
+!!! warning
+    This function is not the most accurate.
 
 ```lua hl_lines="7-18" linenums="1"
 local gameGuard = require(script.Parent.GameGuard)
