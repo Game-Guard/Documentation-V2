@@ -69,3 +69,27 @@ extra:
       link: https://github.com
 edit_uri: https://github.com/Game-Guard/Documentation-V2/edit/main/docs/
 copyright: Copyright &copy; 2023 - 2024 Game Guard
+nav:
+- Introduction: index.md
+- Getting Started:
+  - Installation: getting-started/installation.md
+  - Your First Game: getting-started/your-first-game.md
+- API:
+  - Intitialization: api/initialization.md
+  - Closing Game Guard: api/close.md
+  - Getting Version: api/get-version.md
+  - Checking Jump Power: api/check-jump-power.md
+  - Checking Speed: api/check-speed.md
+  - Fly Check: api/fly-check.md
+  - Ignoring Next Check: api/ignore-next-check.md
+  - Renaming Services: api/rename-services.md
+  - Client Checks:
+    - Initialize Client Script: api/client-checks/init-client-script.md
+    - Client Send Check: api/client-checks/client-send-check.md
+    - Set Client Check Function: api/client-checks/set-client-check-function.md
+  - No Clip:
+    - No Clip: api/no-clip/no-clip.md
+    - Adding No Clip Exclusions: api/no-clip/nc-add-exclusions.md
+    - Removing No Clip Exclusions: api/no-clip/nc-remove-exclusions.md
+  - Enums:
+    - Ignore Next Enum: api/enums/ignore-next-enum.md
