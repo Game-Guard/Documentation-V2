@@ -4,7 +4,7 @@ We know for some people, setting up a new module in your game can be quite confu
 ## Step 1: Installation
 The first step to using Game Guard in your game is to install it. You can find the installation instructions [here](installation.md).
 
-## Step 2: Initialzing Game Guard in a script
+## Step 2: Initializing Game Guard in a script
 The next step is to initialize Game Guard on the server, in order to do so, create a new server script in server script service and paste the following code into it:
 ```lua linenums="1"
 local gameGuard = require(game:GetService("ReplicatedStorage").GameGuard)
@@ -36,7 +36,7 @@ The above code will check the players speed on the server and if it exceeds the 
 ### The code all together for easy copy-and-paste
 
 ```lua linenums="1"
-local gameGuard = require(game:GetService("ReplicatedStorage").GameGuard)
+local gameGuard = require(game:GetService("ServerScriptService").GameGuard)
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(plr)
