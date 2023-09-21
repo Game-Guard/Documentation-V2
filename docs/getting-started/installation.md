@@ -1,7 +1,7 @@
 # Installation
 
 !!! danger
-Only put Game Guard inside server script service or server storage. If it is put into any other services, your game may be vulnerable.
+    Only put Game Guard inside server script service or server storage. If it is put into any other services, your game may be vulnerable.
 
 ## Step 1: Downloading Game Guard
 
