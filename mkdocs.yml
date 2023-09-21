@@ -57,7 +57,6 @@ theme:
     scheme: slate
 plugins:
   - search
-  - git-revision-date-localized
   # - git-committers:
   #     repository: Game-Guard/Documentation-V2
   #     branch: main
