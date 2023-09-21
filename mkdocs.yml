@@ -52,8 +52,8 @@ theme:
     - content.action.edit
   language: en
   palette:
-    primary: deep orange
-    accent: deep orange
+    primary: black
+    accent: blue
     scheme: slate
 plugins:
   - search
@@ -92,3 +92,6 @@ nav:
     - Removing No Clip Exclusions: api/no-clip/nc-remove-exclusions.md
   - Enums:
     - Ignore Next Enum: api/enums/ignore-next-enum.md
+- Changelog:
+  - Updates: changelog/updates.md
+  - How to upgrade: changelog/how-to-upgrade.md

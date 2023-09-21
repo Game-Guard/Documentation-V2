@@ -34,6 +34,8 @@ end)
 The above code will check the players speed on the server and if it exceeds the second value we passed in (16), it will kick the player from the game with a detection type of "speed". You can read what the data parameter prints by testing it out in your game, or read the check speed documentation [here](api/check-speed.md).
 
 ### The code all together for easy copy-and-paste
+!!! warning
+    You may have to test the experience in the Roblox app rather than Roblox Studio due to Roblox Studio not synchronizing the players added event properly. This is only a case in some scenarios.
 
 ```lua linenums="1"
 local gameGuard = require(game:GetService("ServerScriptService").GameGuard)
@@ -50,3 +52,6 @@ Players.PlayerAdded:Connect(function(plr)
     end)
 end)
 ```
+
+## The outcome:
+![The outcome](../assets/firstGame.gif)
