@@ -7,7 +7,7 @@ The first step to using Game Guard in your game is to install it. You can find t
 ## Step 2: Initializing Game Guard in a script
 The next step is to initialize Game Guard on the server, in order to do so, create a new server script in server script service and paste the following code into it:
 ```lua linenums="1"
-local gameGuard = require(game:GetService("ReplicatedStorage").GameGuard)
+local gameGuard = require(game:GetService("ServerScriptService").GameGuard)
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(plr)
