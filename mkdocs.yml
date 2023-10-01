@@ -90,8 +90,7 @@ nav:
     - No Clip: api/no-clip/no-clip.md
     - Adding No Clip Exclusions: api/no-clip/nc-add-exclusions.md
     - Removing No Clip Exclusions: api/no-clip/nc-remove-exclusions.md
-  - Enums:
-    - Ignore Next Enum: api/enums/ignore-next-enum.md
+  - Enums: api/enums.md
 - Changelog:
   - Updates: changelog/updates.md
   - How to upgrade: changelog/how-to-upgrade.md

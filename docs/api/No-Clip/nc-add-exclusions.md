@@ -1,4 +1,6 @@
 # Adding No Clip Exclusions
+!!! warning
+    **⭐Pro Feature:** This function is a pro feature and requires a pro license to use. You can purchase a pro license [here](https://discord.gg/2F4CJFhVwv).
 This function will allow you to add a players no clip exclusion parts.
 
 ## Parameters:
