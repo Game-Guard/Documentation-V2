@@ -5,7 +5,7 @@
 
 ## Step 1: Downloading Game Guard
 
-The first step to installing Game Guard is to download it. You can download Game Guard from the [releases](https://discord.com).
+The first step to installing Game Guard is to download it. You can download Game Guard from the [releases](https://create.roblox.com/marketplace/asset/14935947201/Game-Guard).
 
 ## Step 2: Installing Game Guard
 
