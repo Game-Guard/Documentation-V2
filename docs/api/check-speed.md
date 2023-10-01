@@ -1,10 +1,11 @@
 # Checking Speed
+
 This function will allow you to check a players speed.
 
 ## Parameters:
 
 | Parameter | Description                                                     | Type     |
-|-----------|-----------------------------------------------------------------|----------|
+| --------- | --------------------------------------------------------------- | -------- |
 | plr       | The player object of which to check the speed value of.         | Player   |
 | WalkSpeed | The amount of walk speed the detection will be run at.          | Int      |
 | Result    | The function to call on the result of the check speed function. | function |
@@ -30,5 +31,28 @@ Players.PlayerAdded:Connect(function(plr)
         --     ["newPos"] = newPos -- The new position at the check.
         -- }
     end)
+end)
+```
+
+# Update Speed
+This function updates the walk speed check for a player.
+
+## Parameters:
+
+| Parameter | Description                                             | Type   |
+| --------- | ------------------------------------------------------- | ------ |
+| plr       | The player object of which to check the speed value of. | Player |
+| WalkSpeed | The amount of walk speed the detection will be run at.  | Int    |
+
+## Example Usage:
+
+```lua hl_lines="7" linenums="1"
+local gameGuard = require(script.Parent.gameGuard)
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(plr)
+    gameGuard:init(plr)
+    local WalkSpeed = 20
+    gameGuard:updateSpeed(plr, WalkSpeed)
 end)
 ```

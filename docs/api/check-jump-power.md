@@ -36,3 +36,27 @@ Players.PlayerAdded:Connect(function(plr)
     end)
 end)
 ```
+
+# Update Jump Power
+
+This function updates the jump power check for a player.
+
+## Parameters:
+
+| Parameter | Description                                                     | Type   |
+| --------- | --------------------------------------------------------------- | ------ |
+| plr       | The player in which Game Guard should check the jump power for. | Player |
+| jumpPower | The jump power value which Game Guard should detect.            | Int    |
+
+## Example Usage:
+
+```lua hl_lines="7" linenums="1"
+local gameGuard = require(script.Parent.gameGuard)
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(plr)
+    gameGuard:init(plr)
+    local JumpPower = 100
+    gameGuard:updateJP(plr, JumpPower)
+end)
+```

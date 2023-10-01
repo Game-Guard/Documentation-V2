@@ -77,15 +77,19 @@ nav:
   - Intitialization: api/initialization.md
   - Closing Game Guard: api/close.md
   - Getting Version: api/get-version.md
-  - Checking Jump Power: api/check-jump-power.md
   - Checking Speed: api/check-speed.md
+  - Checking Jump Power: api/check-jump-power.md
   - Fly Check: api/fly-check.md
+  - Update Max Air Time: api/update-max-air-time.md
   - Ignoring Next Check: api/ignore-next-check.md
   - Renaming Services: api/rename-services.md
+  - Get Times Triggered: api/get-times-triggered.md
   - Client Checks:
     - Initialize Client Script: api/client-checks/init-client-script.md
     - Client Send Check: api/client-checks/client-send-check.md
     - Set Client Check Function: api/client-checks/set-client-check-function.md
+    - Set Client Check State: api/client-checks/set-client-check-state.md
+    - Set Client Check Delay: api/client-checks/set-client-check-delay.md
   - No Clip:
     - No Clip: api/no-clip/no-clip.md
     - Adding No Clip Exclusions: api/no-clip/nc-add-exclusions.md
