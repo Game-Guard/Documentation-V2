@@ -1,4 +1,5 @@
 site_name: Game Guard Documentation
+site_url: https://game-guard.twobrake.xyz
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
